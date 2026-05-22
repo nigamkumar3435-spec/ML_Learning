@@ -1,4 +1,4 @@
-#Calculate Total Salary for Each Qualification
+#Code for qualification_salary_analysis
 
 import pandas as pd
 import matplotlib.pyplot as plt
