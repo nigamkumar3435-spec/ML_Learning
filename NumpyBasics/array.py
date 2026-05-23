@@ -16,4 +16,14 @@ print(a)  #Output: [27 65 69 54 70 35 82 14 79 60 17 65 31 13  6 51 20 36 37 35 
 np.linspace(-10,10,6)  # it generates linearly separated points.
 #Output:  array([-10.,  -6.,  -2.,   2.,   6.,  10.])
 
+# identity matrix
 
+np.identity(3, dtype=int)
+np.identity(2, dtype=int)
+
+arr=np.empty(3) # memory allocate  # dtype = int
+print(arr)
+
+for i in range(3):
+  arr[i]=int(input("Enter the value: "))
+print(arr)
