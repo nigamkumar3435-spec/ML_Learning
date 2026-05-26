@@ -22,3 +22,10 @@ print(a1.size)
 print(a2.size)
 print(a3.size)
 
+print(a3)
+i=a3.flatten()#it converts multidimensional array into single dimensional array
+print("1-D Array: ",i)
+
+# astype
+a2.astype(np.int32) # if you want to store only age of persons in existing array
+
