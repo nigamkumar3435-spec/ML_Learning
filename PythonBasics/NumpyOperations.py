@@ -48,3 +48,29 @@ print(c[0][0][0])
 print(c[1,1,0])#first 1 is from 3d array, second 1 is from second 2d array, third 0 is from fourth 1d array
 print(c[0,1,0])
 print(c[0,0,1])
+
+np.array([1,2,3],dtype=complex)
+
+#np.arange creates 1d array
+a=np.arange(1,11,2)#(start,stop,step)
+print(a)
+#a=np.arange(1,11,2) generates 1d matrix
+
+#with reshape
+print(np.arange(16).reshape(4,4))
+
+print(np.arange(16,dtype=float).reshape(4,4))
+print(np.arange(16).reshape(2,2,4))
+
+#ones - It helps in initialing the matrix
+a=np.ones((3,4))
+a
+
+#zeros
+b=np.zeros((3,4),dtype=int)
+print(b)
+b
+
+#random
+a=np.random.random((3,4))
+print(a)
