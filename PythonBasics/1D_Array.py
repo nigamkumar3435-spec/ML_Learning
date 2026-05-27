@@ -4,6 +4,11 @@ arr=np.array([1,2,3,4])
 print("1D Array:",arr)
 type(arr)
 
+# Creating 1D array
+one_d = np.array([5, 10, 15, 20])
+print("1D:", one_d)
+#Output: 1D: [ 5 10 15 20]
+
 #create using list
 list=[45,3,65,7]
 a=np.array(list,dtype=float)
